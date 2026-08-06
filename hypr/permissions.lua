@@ -1,0 +1,16 @@
+
+--###################
+--### PERMISSIONS ###
+--###################
+
+-- See https://wiki.hyprland.org/Configuring/Permissions/
+-- Permission changes require a Hyprland restart.
+
+-- ecosystem {
+--     enforce_permissions = 1
+-- }
+
+-- permission = /usr/(bin|local/bin)/grim, screencopy, allow
+-- permission = /usr/(lib|libexec|lib64)/xdg-desktop-portal-hyprland, screencopy, allow
+-- permission = /usr/(bin|local/bin)/hyprpm, plugin, allow
+
