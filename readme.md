@@ -1,3 +1,16 @@
+## **Fork Owner's Note**
+Hello people, I think this config was abandoned by the original contributors. However, I loved this so much that I will continue maintaining it in this fork. Since I've lazily abandoned some important features that no longer work such as the Hypr-expo plugin. I decided I could just keep this stuff in this fork and not open a pull request in the original because it will mess the other repo up.
+
+Hopefully there are no errors in this fork. But I messed my dotfiles up too many times to test today. Installation is the same as it was in the original. Just copy from this repo instead. I will try my best to replace instead of commenting out the plugins that broke later, but very busy now.
+
+Also if you've errors on startup (could just be an issue limited to my computer). I just replaced the startup script with a command 
+```
+Hyprland --config /home/barbaros/.config/hypr/hyprland.lua
+```
+Run this on TTY first to test if you've this issue, if you do then you can replace start-hyprland with this in `./usr/share/wayland-sessions/hyprland.desktop`. You will need to give your text editor (eg. nano) sudo perms for this though.
+
+---
+
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Iosevka&size=64&duration=3000&pause=10000&color=78997A&background=282828&center=true&vCenter=true&width=1000&height=150&lines=Sophos'+Hyprland+Rice..)](https://git.io/typing-svg)
